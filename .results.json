@@ -1,0 +1,93 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 1,
+    "pending": 0,
+    "failures": 3,
+    "start": "2022-09-15T01:00:13.038Z",
+    "end": "2022-09-15T01:00:13.182Z",
+    "duration": 144
+  },
+  "tests": [
+    {
+      "title": "la variable cambiaDeValor existe",
+      "fullTitle": "index.js la variable cambiaDeValor existe",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cambiaDeValor is not defined\n    at Context.<anonymous> (test/indexTest.js:3:12)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "cambiaDeValor is not defined"
+      }
+    },
+    {
+      "title": "la variable cambiaDeValor equivale a false",
+      "fullTitle": "index.js la variable cambiaDeValor equivale a false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cambiaDeValor is not defined\n    at Context.<anonymous> (test/indexTest.js:7:12)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "cambiaDeValor is not defined"
+      }
+    },
+    {
+      "title": "la variable comida equivale a tacos",
+      "fullTitle": "index.js la variable comida equivale a tacos",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: comida is not defined\n    at Context.<anonymous> (test/indexTest.js:11:12)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "comida is not defined"
+      }
+    },
+    {
+      "title": "la variable temperatura equivale al numero 35",
+      "fullTitle": "index.js la variable temperatura equivale al numero 35",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "la variable cambiaDeValor existe",
+      "fullTitle": "index.js la variable cambiaDeValor existe",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cambiaDeValor is not defined\n    at Context.<anonymous> (test/indexTest.js:3:12)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "cambiaDeValor is not defined"
+      }
+    },
+    {
+      "title": "la variable cambiaDeValor equivale a false",
+      "fullTitle": "index.js la variable cambiaDeValor equivale a false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cambiaDeValor is not defined\n    at Context.<anonymous> (test/indexTest.js:7:12)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "cambiaDeValor is not defined"
+      }
+    },
+    {
+      "title": "la variable comida equivale a tacos",
+      "fullTitle": "index.js la variable comida equivale a tacos",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: comida is not defined\n    at Context.<anonymous> (test/indexTest.js:11:12)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "comida is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "la variable temperatura equivale al numero 35",
+      "fullTitle": "index.js la variable temperatura equivale al numero 35",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
